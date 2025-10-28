@@ -31,6 +31,16 @@ const personSchema=new mongoose.Schema({
         required:true
     },
 
+    username:{
+        require:true,
+        type:String,
+    },
+
+    password:{
+        require:true,
+        type:String
+    }
+
     
 });
 
